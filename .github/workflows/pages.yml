@@ -26,6 +26,10 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          # Auto-enable Pages on first run; avoids "Not Found" if Pages
+          # hasn't been turned on in Settings → Pages yet.
+          enablement: true
 
       - name: Build with Jekyll (default)
         uses: actions/jekyll-build-pages@v1
