@@ -1,0 +1,20 @@
+# Jekyll config for GitHub Pages
+title: obsidian-trades
+description: Karpathy-style LLM-maintained research wiki for crypto algo-trading
+theme: jekyll-theme-cayman
+
+# Don't try to render Obsidian internals or large data dumps
+exclude:
+  - .obsidian/
+  - .trash/
+  - .smart-env/
+  - .venv/
+  - scripts/
+  - "*.py"
+  - reports/wiki_lint_report.md
+
+# Treat .md files as Markdown documents
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false

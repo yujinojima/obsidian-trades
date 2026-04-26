@@ -1,0 +1,21 @@
+{
+  "strategy": "YujiCointegrationResidualReversionStrategy",
+  "timerange": "batch-20260424T123546Z",
+  "selection": "mixed",
+  "trades_exported": 8,
+  "trades_full": 8,
+  "wins": 6,
+  "losses": 2,
+  "pnl_sum_pct": 54.373036766145056,
+  "win_rate_pct": 75.0,
+  "avg_mfe": 0.13603971770372922,
+  "avg_capture_ratio": 0.628293961969071,
+  "missed_continuation_rate": 0.16666666666666666,
+  "exit_diagnosis_dist": {
+    "premature_exit": 5,
+    "poor_entry": 1,
+    "efficient_exit": 1,
+    "missed_continuation": 1
+  },
+  "generated_utc": "2026-04-24T14:12:10.277690+00:00"
+}

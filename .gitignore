@@ -1,0 +1,26 @@
+# Local Obsidian state
+.obsidian/
+.trash/
+.smart-env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sensitive — never commit
+.env
+.env.*
+*.key
+*.pem
+secrets/
